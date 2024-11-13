@@ -1,3 +1,5 @@
+# https://www.acmicpc.net/problem/1817
+
 n,m=map(int,input().split())#1우선인풋을 받고
 count = 0#2수 설정 하고
 if n == 0 : #30이면 어차피 값0이니 예외처리
