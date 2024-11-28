@@ -1,6 +1,6 @@
 import sys
-
-for _ in range(int(sys.stdin.readline())):
+a=int(sys.stdin.readline())
+for _ in range(a):
     li = []
     n = int(sys.stdin.readline())
     for __ in range(n):
