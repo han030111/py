@@ -1,3 +1,4 @@
+# https://www.acmicpc.net/problem/15720
 a,b,c=list(map(int,input().split()))
 h=list(map(int,input().split()))
 s=list(map(int,input().split()))

@@ -1,3 +1,4 @@
+# https://www.acmicpc.net/problem/15904
 #생각한 순서는 앞 숫자로 표기
 s = input()#1우선 인풋을 받는다
 ans = 'UCPC'#3순서가 있는비교군을 만든다

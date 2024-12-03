@@ -14,8 +14,6 @@ Tb=a.count("Tb")
 l.append(Tb)
 Ex=a.count("Ex")
 l.append(Ex)
-for i in l:
-    if i==0
 b=len(a)
 print("Re",Re,round(1/(b/Re),2))
 print("Pt",Pt,round(1/(b/Pt),2))
