@@ -1,4 +1,4 @@
-# https://www.acmicpc.net/problem/14490
+# https://www.acmicpc.net/problem/10867
 b=int(input())
 a=list(set(map(int,input().split())))
 #나누고 숫자로 바꾸고 중복을 없에고 리스트로
