@@ -1,4 +1,4 @@
-# https://www.acmicpc.net/problem/1920
+# https://www.acmicpc.net/problem/14425
 import sys
 a,b=list(map(int,sys.stdin.readline().split()))
 cnt=0
