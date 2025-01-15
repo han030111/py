@@ -7,3 +7,4 @@ for i in range(a):
 l.sort()
 for i in l:
     print(i)
+#append와 sys를 합쳐서 속도 단축
