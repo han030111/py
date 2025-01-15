@@ -1,3 +1,4 @@
+# https://www.acmicpc.net/problem/14490
 import sys
 import math
 a,b=list(map(int,sys.stdin.readline().split(":")))
