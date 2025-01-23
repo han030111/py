@@ -1,4 +1,4 @@
-# https://www.acmicpc.net/problem/5347
+# https://www.acmicpc.net/problem/9613
 import sys
 import math
 a=int(input())
