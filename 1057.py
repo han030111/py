@@ -1,5 +1,6 @@
 # https://www.acmicpc.net/problem/1057
-n,b,c=map(int, input().split())
+
+
 cnt=0
 while b!=c:
   b -= b//2
