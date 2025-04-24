@@ -1,14 +1,16 @@
 # https://www.acmicpc.net/problem/1065
-import sys
-num = int(sys.stdin.readline())
+# 한수(등차수열을 이루는 숫자)를 구하는 프로그램
 
-cnt = 0
-for i in range(1, num+1):
-    n = list(map(int, str(i)))
+num = int(input())  # 입력받은 숫자
+cnt = 0  # 한수의 개수를 저장할 변수
+
+for i in range(1, num + 1):
+    n = list(map(int, str(i)))  # 숫자를 자릿수별로 나눔
     if i < 100:
-        #100이하의 수는 무조건 등차수열을 이룬다
-        cnt += 1 
-    elif n[0]-n[1] == n[1]-n[2]:
-        cnt += 1  
-print(cnt)
-#1000은 한수가 아니고1000을넘는 수는 나오지 않으니3자리 수만 판별하면 된다
+        # 100 이하의 수는 모두 한수
+        cnt += 1
+    elif n[0] - n[1] == n[1] - n[2]:
+        # 세 자리 수에서 등차수열을 이루는 경우
+        cnt += 1
+
+print(cnt)  # 한수의 개수 출력
