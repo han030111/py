@@ -1,3 +1,4 @@
+# https://www.acmicpc.net/problem/10870
 a,b=0,1
 c=int(input())
 if c==0:

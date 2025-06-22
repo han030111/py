@@ -1,3 +1,4 @@
+# https://www.acmicpc.net/problem/7785
 import sys
 ramge=int(sys.stdin.readline())
 l=set()

@@ -1,3 +1,4 @@
+# https://www.acmicpc.net/problem/26069
 import sys
 ramge=int(sys.stdin.readline())
 l=set("ChongChong")
