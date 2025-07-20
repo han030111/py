@@ -1,3 +1,4 @@
+# https://www.acmicpc.net/problem/9063
 a=int(input())
 x=[]
 y=[]
