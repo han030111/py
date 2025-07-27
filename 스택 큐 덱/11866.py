@@ -14,4 +14,4 @@ else:
     while len(l)>1:
         l.rotate(-b)
         print(f"{l.pop()}",end=", ")
-    print(f"{l.pop()}>")
+    print(f"{l.pop()}>")  
